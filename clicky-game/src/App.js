@@ -31,6 +31,7 @@ class App extends Component {
       this.state.status = "Correct! Keep going"
     } else {
       this.setState({ picked: []});
+      this.state.status = "Oops! That's wrong. Try again"
     }
   }
 
