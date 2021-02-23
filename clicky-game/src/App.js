@@ -17,14 +17,12 @@ class App extends Component {
   render() {
     this.newOrder();
     console.log(this.state.order);
+    
     return (
     <div className="row">
-      <div className="col-3">1</div>
-      <div className="col-3">1</div>
-      <div className="col-3">1</div>
-      <div className="col-3">1</div>
-      <div className="col-3">1</div>
-      <div className="col-3">1</div>
+      <div id={this.state.order[0]} className="col-3">1</div>
+      <div id={this.state.order[1]} className="col-3">2</div>
+
     </div>
     );
   }
