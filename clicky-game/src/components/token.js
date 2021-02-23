@@ -60,7 +60,7 @@ function Token (props) {
 
     return <div className="card" style={cardStyle}>
         <img src={charPic} style={imgStyle} alt={"Character ID: "+props.charId}/>
-        <button onClick={select} className="btn">Select</button>
+        <button onClick={select} className="btn-primary">Select</button>
     </div>
 }
 
