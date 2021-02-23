@@ -8,7 +8,7 @@ class App extends Component {
     order: [1,2,3,4,5,6,7,8,9,10,11,12],
     picked: [],
     topScore: 0,
-    status: "",
+    status: "Click 'submit' on a picture to start. Don't select the same character twice!",
   }
 
   // Shuffle Algorithm
@@ -43,9 +43,16 @@ class App extends Component {
     return (
     <div>
       <div className="jumbotron bg-dark text-center text-white">
-        <h1>CLICKY GAME</h1>
-        <h1>Current Score: {this.state.picked.length}</h1>
-        <h1>Top Score: {this.state.topScore}</h1>
+        <div className="row">
+        <div className="col-4"><h1>CLICKY GAME</h1></div>
+        <div className="col-4"><h2>{this.state.status}</h2></div>
+        <div className="col-4"><h1>Current Score: {this.state.picked.length}</h1>
+        <h1>Top Score: {this.state.topScore}</h1></div>
+        </div>
+
+
+
+
       </div>
     <div className="row">
       <div id={this.state.order[0]} className="col-3"><Token onPickedChange={this.onPickedChange} charId={this.state.order[0]} /></div>
