@@ -8,7 +8,7 @@ class App extends Component {
     order: [1,2,3,4,5,6,7,8,9,10,11,12],
     picked: [],
     topScore: 0,
-    status: "Click 'submit' on a picture to start. Don't select the same character twice!",
+    status: "Click 'select' on a picture to start. Don't select the same character twice!",
   }
 
   // Shuffle Algorithm
