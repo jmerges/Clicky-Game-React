@@ -7,7 +7,8 @@ class App extends Component {
   state = {
     order: [1,2,3,4,5,6,7,8,9,10,11,12],
     picked: [],
-    topScore: 0
+    topScore: 0,
+    status: "",
   }
 
   // Shuffle Algorithm
@@ -27,6 +28,7 @@ class App extends Component {
       if (this.state.picked.length > this.state.topScore) {
         this.state.topScore = this.state.picked.length;
       }
+      this.state.status = "Correct! Keep going"
     } else {
       this.setState({ picked: []});
     }
