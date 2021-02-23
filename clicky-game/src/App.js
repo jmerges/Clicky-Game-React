@@ -55,18 +55,18 @@ class App extends Component {
 
       </div>
     <div className="row">
-      <div id={this.state.order[0]} className="col-3"><Token onPickedChange={this.onPickedChange} charId={this.state.order[0]} /></div>
-      <div id={this.state.order[1]} className="col-3"><Token onPickedChange={this.onPickedChange} charId={this.state.order[1]} /></div>
-      <div id={this.state.order[2]} className="col-3"><Token onPickedChange={this.onPickedChange} charId={this.state.order[2]} /></div>
-      <div id={this.state.order[3]} className="col-3"><Token onPickedChange={this.onPickedChange} charId={this.state.order[3]} /></div>
-      <div id={this.state.order[4]} className="col-3"><Token onPickedChange={this.onPickedChange} charId={this.state.order[4]} /></div>
-      <div id={this.state.order[5]} className="col-3"><Token onPickedChange={this.onPickedChange} charId={this.state.order[5]} /></div>
-      <div id={this.state.order[6]} className="col-3"><Token onPickedChange={this.onPickedChange} charId={this.state.order[6]} /></div>
-      <div id={this.state.order[7]} className="col-3"><Token onPickedChange={this.onPickedChange} charId={this.state.order[7]} /></div>
-      <div id={this.state.order[8]} className="col-3"><Token onPickedChange={this.onPickedChange} charId={this.state.order[8]} /></div>
-      <div id={this.state.order[9]} className="col-3"><Token onPickedChange={this.onPickedChange} charId={this.state.order[9]} /></div>
-      <div id={this.state.order[10]} className="col-3"><Token onPickedChange={this.onPickedChange} charId={this.state.order[10]} /></div>
-      <div id={this.state.order[11]} className="col-3"><Token onPickedChange={this.onPickedChange} charId={this.state.order[11]} /></div>
+      <div id={this.state.order[0]} className="col-3 text-center"><Token onPickedChange={this.onPickedChange} charId={this.state.order[0]} /></div>
+      <div id={this.state.order[1]} className="col-3 text-center"><Token onPickedChange={this.onPickedChange} charId={this.state.order[1]} /></div>
+      <div id={this.state.order[2]} className="col-3 text-center"><Token onPickedChange={this.onPickedChange} charId={this.state.order[2]} /></div>
+      <div id={this.state.order[3]} className="col-3 text-center"><Token onPickedChange={this.onPickedChange} charId={this.state.order[3]} /></div>
+      <div id={this.state.order[4]} className="col-3 text-center"><Token onPickedChange={this.onPickedChange} charId={this.state.order[4]} /></div>
+      <div id={this.state.order[5]} className="col-3 text-center"><Token onPickedChange={this.onPickedChange} charId={this.state.order[5]} /></div>
+      <div id={this.state.order[6]} className="col-3 text-center"><Token onPickedChange={this.onPickedChange} charId={this.state.order[6]} /></div>
+      <div id={this.state.order[7]} className="col-3 text-center"><Token onPickedChange={this.onPickedChange} charId={this.state.order[7]} /></div>
+      <div id={this.state.order[8]} className="col-3 text-center"><Token onPickedChange={this.onPickedChange} charId={this.state.order[8]} /></div>
+      <div id={this.state.order[9]} className="col-3 text-center"><Token onPickedChange={this.onPickedChange} charId={this.state.order[9]} /></div>
+      <div id={this.state.order[10]} className="col-3 text-center"><Token onPickedChange={this.onPickedChange} charId={this.state.order[10]} /></div>
+      <div id={this.state.order[11]} className="col-3 text-center"><Token onPickedChange={this.onPickedChange} charId={this.state.order[11]} /></div>
     </div>
     </div>);
   }
